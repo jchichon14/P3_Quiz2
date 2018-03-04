@@ -217,7 +217,7 @@ exports.playCmd = rl => {
 */
 exports.creditsCmd = rl => {
     log("Autor de la práctica:");
-    log("Julián Chichón Gutiérrez","green");
+    log("JULIAN","green");
     rl.prompt();
 };
 /**
