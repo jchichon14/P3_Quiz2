@@ -44,7 +44,7 @@ const biglog = (msg, color) => {
 *@param emsg Texto del mensaje de error.
 */
 const errorlog = (emsg) => {
-  console.log('${colorize("Error","red")}: ${colorize(colorize(emsg, "red"),"bgYellowBright")}');
+  console.log(`${colorize("Error","red")}: ${colorize(colorize(emsg, "red"),"bgYellowBright")}`);
 };
 
 
